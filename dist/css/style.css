@@ -1,0 +1,142 @@
+.container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: rgb(153, 153, 139);
+}
+.container .header {
+  width: 100%;
+  height: 77px;
+  background: pink;
+}
+.container .header .menu-content {
+  margin: 0 136px;
+  padding: 23px 0;
+  display: flex;
+  align-items: center;
+}
+.container .header .menu-content .logo {
+  margin-right: 350px;
+}
+.container .header .menu-content .main-nav {
+  font-family: "Mulish", sans-serif;
+  font-size: 18px;
+  font-weight: 400px;
+  width: 444px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container .header .menu-content .main-nav a {
+  color: #818181;
+  text-decoration: none;
+}
+.container .header .menu-content .main-nav .active {
+  font-weight: 800;
+  color: #3D8B74;
+}
+.container .anons-wrapper {
+  margin: 0;
+  padding: 0;
+}
+.container .anons-wrapper .anons {
+  background-image: url(/dist/img/anons.svg);
+  margin: 0;
+  width: 1347px;
+  height: 595px;
+  margin: 32px 47px 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.container .anons-wrapper .anons__text-wrap {
+  color: #232323;
+  width: 723px;
+  height: 365px;
+  background-color: rgba(255, 255, 255, 0.75);
+  margin: 0 auto;
+}
+.container .anons-wrapper .anons__text-wrap .text {
+  width: 549px;
+  height: 249px;
+  margin: 0 auto;
+  padding: 58.5px;
+}
+.container .anons-wrapper .anons__text-wrap .text .title {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: uppercase;
+}
+.container .anons-wrapper .anons__text-wrap .text .context {
+  font-weight: 400;
+  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+}
+.container .anons-wrapper .anons__text-wrap .btn {
+  background-color: #3D8B74;
+  color: #FFFFFF;
+  width: 292px;
+  height: 55px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+}
+.container .anons-wrapper .content {
+  display: flex;
+}
+.container .anons-wrapper .content__nav {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: 400px;
+}
+.container .anons-wrapper .content__nav a {
+  color: #232323;
+  text-decoration: none;
+}
+.container .anons-wrapper .content__nav .active-blog {
+  font-weight: 800;
+  color: #3D8B74;
+}
+.container .anons-wrapper .content .blog-list {
+  color: #232323;
+}
+.container .anons-wrapper .content .blog-list ul {
+  list-style: none;
+}
+.container .anons-wrapper .content .blog-list ul .blog-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+.container .anons-wrapper .content .blog-list ul .blog-text {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.container .anons-wrapper .content .blog-list ul .read-more {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  pointer-events: auto;
+  color: #232323;
+}
+.container .anons-wrapper .content .aside .tag-cloud ul {
+  list-style: none;
+  display: flex;
+  -moz-column-count: 2;
+       column-count: 2;
+}
+.container .anons-wrapper .content .aside .tag-cloud ul li {
+  background-color: #3D8B74;
+  margin: 5px;
+  color: #FFFFFF;
+  padding: 12.5px;
+  cursor: pointer;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}

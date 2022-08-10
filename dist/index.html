@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>blogger website</title>
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
@@ -14,83 +14,195 @@
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
-<div class="container">
+<div class="container"> 
     <header class="header">
-        <div class="logo">
-            <img src="img/Natalie Laursen logo.svg" alt="pic"> 
+        <div class="menu-content">
+            <div class="logo">
+                <img src="img/Natalie Laursen logo.svg" alt="pic"> 
+            </div>
+            <nav class="main-nav">
+                <a class="active" href="">Home</a>
+                <a href="">About</a>
+                <a href="">Marathon</a>
+                <a href="">Contact</a>
+            </nav>
         </div>
-        <nav class="main-nav">
-            <a class="active" href="">Home</a>
-            <a href="">About</a>
-            <a href="">Marathon</a>
-            <a href="">Contact</a>
-        </nav>
+      
     </header>
-    <main>
-        <div class="anons">
-            <div class="anons__text" >
+    <main class="anons-wrapper">
+        <div class="anons"> 
+            <div class="anons__text-wrap" >
+              <div class="text">
                 <h1 class="title">TAKE PART IN A 30-DAY DETOX MARATHON</h1>
                 <p class="context">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     Ut enim ad minim veniam.
                 </p>
                 <button class="btn">I AM INTERESTED</button>
+              </div>
             </div>
         </div>
         <div class="content">
             <div>
-                <nav class="content__nav">
+                <nav class="content__nav"> 
                     <a href="">All(106)</a>
-                    <a class="active" href="">Receipts(32)</a>
+                    <a class="active-blog" href="">Receipts(32)</a>
                     <a href="">Travelings(4)</a>
-                    <a href="">Health(14)</a>
+                    <a href="">Health(14)</a> 
                 </nav>
-                <div class="blog-list">
-                    <ul >
+                <div class="blog-list">    
+                    <ul>
                         <li>
                             <img src="img/banana.svg" alt="">
-                            <div class="blog">
-                                <h1></h1>
-                                <p></p>
+                            <div >
+                                <h1 class="blog-title" >THE HEALTH BENEFITS OF BANANAS</h1>
+                                <p class="blog-text">Lorem ipsum dolor sit amet, consectetur 
+                                    adipiscing elit, sed do eiusmod tempor 
+                                    incididunt ut labore et dolore magna aliqua. 
+                                </p>
+                                <a href="" class="read-more">Read more</a>
+                                
                             </div>
                         </li>
                         <li>
                             <img src="img/experience.svg" alt="">
                             <div class="blog">
-                                <h1></h1>
-                                <p></p>
+                                <h1 class="blog-title" >MY FIRST SKIING EXPERIENCE</h1>
+                                <p class="blog-text">Lorem ipsum dolor sit amet, consectetur 
+                                    adipiscing elit, sed do eiusmod tempor 
+                                    incididunt ut labore et dolore magna aliqua. 
+                                </p>
+                                <a href="" class="read-more">Read more</a>
                             </div>
                         </li>
                          <li>
                             <img src="img/plant.svg" alt="">
                             <div class="blog">
-                                <h1></h1>
-                                <p></p>
+                                <h1 class="blog-title" >HOW INDOOR PLANTS AFFECT US</h1>
+                                <pclass="blog-text">Lorem ipsum dolor sit amet, consectetur 
+                                    adipiscing elit, sed do eiusmod tempor 
+                                    incididunt ut labore et dolore magna aliqua. 
+                                </p>
+                                <a href="" class="read-more">Read more</a>
                             </div>
                         </li>
                         <li>
                             <img src="img/pizza.svg" alt="">
                             <div class="blog">
-                                <h1></h1>
-                                <p></p>
+                                <h1 class="blog-title" >SIMPLE HOMEMADE VEGAN PIZZA</h1>
+                                <p class="blog-text">Lorem ipsum dolor sit amet, consectetur 
+                                    adipiscing elit, sed do eiusmod tempor 
+                                    incididunt ut labore et dolore magna aliqua. 
+                                </p>
+                                <a href="" class="read-more">Read more</a>
                             </div>
                         </li>
                         <li>
                             <img src="img/productivity.svg" alt="">
                             <div class="blog">
-                                <h1></h1>
-                                <p></p>
+                                <h1 class="blog-title" >TOP 5 FOR YOUR PRODUCTIVITY</h1>
+                                <p class="blog-text">Lorem ipsum dolor sit amet, consectetur 
+                                    adipiscing elit, sed do eiusmod tempor 
+                                    incididunt ut labore et dolore magna aliqua. 
+                                </p>
+                                <a href="" class="read-more">Read more</a>
                             </div>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div></div>
+            <div class="aside">
+                <div class="icons">
+                    <i>
+                        <img src="img/facebook.svg" alt="icon"/>
+                    </i>
+                    <i>
+                        <img src="img/instagram.svg" alt="icon"/>
+                    </i>
+                    <i>
+                        <img src="img/youtube.svg" alt="icon"/>
+                    </i>
+                    <i>
+                        <img src="img/twitter.svg" alt="icon"/>
+                    </i>
+                    <i>
+                        <img src="img/pinterest.svg" alt="icon"/>
+                    </i>
+                    
+                </div>
+                <div class="tag-cloud">
+                   <ul>
+                    <li>#healthyfood</li>
+                    <li>#banana</li>
+                    <li>#coctails</li>
+                    <li>#vegan</li>
+                    <li>#yoga</li>
+                    <li>#makeuptutorial</li>
+                   </ul>
+                   <a href="">See more</a>
+                </div>
+                <div class="author">
+                    <h1>ABOUT AUTHOR</h1>
+                    <img src="img/author.svg" alt="author">
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit, sed do eiusmod tempor 
+                        incididunt ut labore et dolore magna aliqua. 
+                    </p>
+                </div>
+            </div>
+           
         </div>
-        <div class="subscribe"></div>
+        <div>
+            <a href=""><img src="img/Vector (1).svg" alt="vector"></a>
+            <a href="">previous</a>
+            <a href="">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">...</a>
+            <a href="">27</a>
+            <a href="">next</a>
+            <a href=""><img src="img/Vector (2).svg" alt="vector"></a>
+        </div>
+        <div class="subscribe">
+            <h1>SUBSCRIBE AND DON'T MISS NEW ARTICLES</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, sed do eiusmod tempor 
+                incididunt ut labore et dolore magna aliqua. 
+            </p>
+            <div>
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Email">
+                <button>SEND</button>
+            </div>
+        </div>
     </main>
     <footer>
-
+    <div>
+        <img src="img/avatar.svg" alt="avatar">
+        <h1>NATALIE LAUREN</h1>
+        <div class="icons">
+            <i>
+                <img src="img/facebook.svg" alt="icon"/>
+            </i>
+            <i>
+                <img src="img/instagram.svg" alt="icon"/>
+            </i>
+            <i>
+                <img src="img/youtube.svg" alt="icon"/>
+            </i>
+            <i>
+                <img src="img/twitter.svg" alt="icon"/>
+               
+            </i>
+            <i>
+                <img  src="img/pinterest.svg" alt="icon"/>
+                
+            </i>
+        </div>
+       <div> 
+          <p>A.Polina 2020. All rights reserved</p>
+       </div>
+    </div>
     </footer>
 </div>
     </body>
