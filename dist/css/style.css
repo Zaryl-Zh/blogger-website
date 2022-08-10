@@ -45,7 +45,7 @@
   margin: 0;
   width: 1347px;
   height: 595px;
-  margin: 32px 47px 52px;
+  margin: 32px 47px 52px 68px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -92,6 +92,12 @@
   font-family: "Mulish", sans-serif;
   font-size: 16px;
   font-weight: 400px;
+  width: 659px;
+  height: 34px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 137px;
 }
 .container .anons-wrapper .content__nav a {
   color: #232323;
@@ -103,21 +109,41 @@
 }
 .container .anons-wrapper .content .blog-list {
   color: #232323;
+  width: 826px;
+  height: 1333px;
+  margin-left: 137px;
 }
 .container .anons-wrapper .content .blog-list ul {
   list-style: none;
+  margin-top: 37px;
+  padding: 0;
 }
-.container .anons-wrapper .content .blog-list ul .blog-title {
+.container .anons-wrapper .content .blog-list ul li {
+  display: flex;
+  margin-bottom: 50px;
+}
+.container .anons-wrapper .content .blog-list ul li .blog {
+  width: 520px;
+  height: 144px;
+  margin-left: 48px;
+}
+.container .anons-wrapper .content .blog-list ul li .blog .blog-title {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 700;
   font-size: 24px;
+  line-height: 24px;
+  letter-spacing: 1.1px;
 }
-.container .anons-wrapper .content .blog-list ul .blog-text {
+.container .anons-wrapper .content .blog-list ul li .blog .blog-text {
   font-family: "Mulish", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  width: 520px;
+  height: 67px;
+  line-height: 20px;
+  letter-spacing: 1.5px;
 }
-.container .anons-wrapper .content .blog-list ul .read-more {
+.container .anons-wrapper .content .blog-list ul li .blog .read-more {
   font-family: "Mulish", sans-serif;
   font-weight: 600;
   font-size: 16px;
@@ -139,4 +165,97 @@
   font-family: "Mulish", sans-serif;
   font-weight: 400;
   font-size: 16px;
+}
+.container .anons-wrapper .content .aside {
+  width: 277px;
+  height: 850px;
+}
+.container .anons-wrapper .content .aside .icons {
+  width: 200px;
+  height: 22px;
+  display: flex;
+  justify-content: space-between;
+  margin: 13px 0 58px 0;
+}
+.container .anons-wrapper .content .aside .tag-cloud {
+  width: 267px;
+  height: 258px;
+}
+.container .anons-wrapper .content .aside .tag-cloud h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
+}
+.container .anons-wrapper .content .aside .tag-cloud ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.container .anons-wrapper .content .aside .tag-cloud ul li:hover {
+  background-color: #40A385;
+}
+.container .anons-wrapper .content .aside .tag-cloud ul .li {
+  margin-left: 0px;
+}
+.container .anons-wrapper .content .aside .tag-cloud a {
+  font-family: "Mulish", sans-serif;
+  color: #232323;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+}
+.container .anons-wrapper .content .aside .author h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 1.1px;
+}
+.container .anons-wrapper .content .aside .author p {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+}
+.container .anons-wrapper .pag-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container .anons-wrapper .pag-div .pagination {
+  width: 461px;
+  height: 26px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .anons-wrapper .pag-div .pagination a {
+  font-family: "Mulish", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1.5px;
+  color: #232323;
+  text-decoration: none;
+}
+.container .anons-wrapper .pag-div .pagination .active {
+  background-color: #3D8B74;
+  height: 26px;
+  width: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 1.5px;
 }
