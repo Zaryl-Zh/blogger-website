@@ -12,6 +12,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
 <div class="container"> 
@@ -26,7 +27,20 @@
                 <a href="">Marathon</a>
                 <a href="">Contact</a>
             </nav>
+            
+            <input type="checkbox" id="hmb-input" class="humburger-btn"/>
+            <label class="hamburger-menu" for="hmb-input">
+                <nav class="main-nav2 sidebar-menu">
+                    <a class="active" href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Marathon</a>
+                    <a href="">Contact</a>
+                </nav>
+            </label>
+            <!-- <div class="overlay">hi</div> -->
         </div>
+        
+       
       
     </header>
     <main class="anons-wrapper">
@@ -144,7 +158,7 @@
                 </div>
                 <div class="aside">
                     <div class="icons">
-                        <i>
+                        <i class="i1">
                           <svg  width="12" height="23" viewBox="0 0 12 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M3.69901 22.215V11.7911H0.985657V8.03797H3.69901V4.83232C3.69901 2.3133 5.3018 0 8.99497 0C10.4903 0 11.596 0.145619 11.596 0.145619L11.5089 3.6504C11.5089 3.6504 10.3812 3.63924 9.15067 3.63924C7.81886 3.63924 7.60549 4.26271 7.60549 5.29751V8.03797H11.6147L11.4403 11.7911H7.60549V22.215H3.69901Z" fill="#454545"/>
                           </svg>
@@ -199,13 +213,13 @@
        
             <div class="pag-div">
                 <div class="pagination">
-                    <a href=""><img src="img/Vector (1).svg" alt="vector"></a>
+                    <a class="vec" href=""><img src="img/Vector (1).svg" alt="vector"></a>
                     <a class="style" href="">previous</a>
                     <a class="style" href="">1</a>
                     <a class="active style" href="">2</a>
                     <a class="style" href="">3</a>
                     <a class="style" href="">...</a>
-                    <a class="style" href="">27</a>
+                    <a class="style a1" href="">27</a>
                     <a class="style" href="">next</a>
                     <a href=""> <img src="img/Vector (2).svg" alt="vector"></a>
                 </div>
@@ -215,6 +229,7 @@
       
         
         <div class="subscribe">
+            <div class="sub-text">
                 <h1>SUBSCRIBE AND DON'T MISS NEW ARTICLES</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur 
                     adipiscing elit, sed do eiusmod tempor 
@@ -222,7 +237,8 @@
                     Lorem ipsum dolor sit amet, consectetur 
                     adipiscing elit, sed do eiusmod.
                 </p>
-           
+            </div>
+                
             <div class="input">
                 <input class="input__name" type="text" placeholder="Name">
                 <input class="input__email" type="text" placeholder="Email">
